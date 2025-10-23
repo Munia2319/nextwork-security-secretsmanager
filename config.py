@@ -1,11 +1,6 @@
 # config.py - TEMPORARY for demonstration only
 # WARNING: This is NOT safe for production! We'll fix it with Secrets Manager.
 
-<<<<<<< HEAD
-AWS_ACCESS_KEY_ID = "YOUR_ACTUAL_ACCESS_KEY_ID"
-AWS_SECRET_ACCESS_KEY = "YOUR_ACTUAL_SECRET_ACCESS_KEY"
-AWS_REGION = "us-east-2"
-=======
 import boto3
 import json
 from botocore.exceptions import ClientError
